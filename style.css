@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.rockstar {
+  width: 40px;
+}
+.user {
+  border-radius: 100%;
+  color: #f9f9f9;
+  border: none;
+  background-color: #1b1b1b;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 100%;
+  background-color: #161616;
+  height: 1px;
+}
+.hero-carusel {
+  width: 100%;
+  /* padding: 30px; */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-carusel p {
+  color: white;
+}
+.hero-carusel h1 {
+  color: white;
+}
+.scrool {
+  width: 70%;
+}
+.scrool-btn {
+  width: 240px;
+  height: 70px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.scrol-text-area {
+  width: 81%;
+}
+.scrool-text {
+  display: flex;
+  justify-content: center;
+}
+.scrool-btn:hover {
+  background-color: #fcaf17;
+  color: black;
+  border: none;
+  transition: 0.5s;
+}
+.new h1{
+  color: white;
+}
+
+.game-area {
+  background-color: #1b1b1b;
+  width: 100%;
+}
+.games {
+  width: 30%;
+  border: 1px solid #242424;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.games-image {
+  background-image: url(./img/read-dead.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+
+  border-radius: 15px 15px 0 0;
+}
+.comet-image {
+  background-image: url(./img/comet.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 500px;
+
+  border-radius: 15px 15px 0 0;
+}
+.patriot-image {
+  background-image: url(./img/patriot.jpg);
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 500px;
+
+  border-radius: 15px 15px 0 0;
+}
+.black {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+  bottom: 0;
+  border-radius: 0 0 15px 15px;
+  padding: 30px;
+}
+.black-text {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  color: white;
+}
+.black-text a {
+  color: white;
+
+  text-decoration: none;
+}
+.text-abaut h1 {
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+}
+.games-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.range-image {
+  background-image: url(./img/range.jpg);
+  background-size: cover;
+
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px 15px 0 0;
+}
+.gta-image {
+  background-image: url(./img/gta.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px 15px 0 0;
+}
+.call-image {
+  background-image: url(./img/call.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px 15px 0 0;
+}
+.viev-btn {
+  width: 120px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.viev-btn:hover{
+  background-color:#fcaf17 ;
+  transition: 0.5s;
+}
+.viev {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.games-card {
+  width: 100%;
+  background-color: #1b1b1b;
+}
+
+.gta-text {
+  color: white;
+}
+.gta-trilogy {
+  background-image: url(./img/GTATrilogy.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 23%;
+  height: 360px;
+  border-radius: 10px;
+}
+.read-dead {
+  background-image: url(./img/reddeadredemption2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 23%;
+  height: 360px;
+  border-radius: 10px;
+}
+.read-dead-online {
+  background-image: url(./img/reddeadonline.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 23%;
+  height: 360px;
+  border-radius: 10px;
+}
+.gta-v {
+  background-image: url(./img/V.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 23%;
+  height: 360px;
+  border-radius: 10px;
+}
+.v-card {
+  display: flex;
+  justify-content: space-between;
+}
+.gta-text {
+  margin-bottom: 30px;
+}
+.v-btn {
+  width: 120px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+.v-btn:hover{
+  background-color: #fcaf17;
+  transition: 0.5s;
+}
+.gta-v-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-abaut {
+  width: 100%;
+}
+.footer-ul {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  font-size: 20px;
+}
+.footer-ul a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.footer-ul i {
+  color: white;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.footer-ul a:hover{
+  color: #fcaf17;
+transition: 0.3s;
+}
+.corparate {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 0;
+}
+.corparate a {
+  text-decoration: none;
+  color: gray;
+}
+.corparate a:hover {
+  color: #fcaf17;
+}
+.sosial {
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  transition: 0.8s;
+}
+.sosial i:hover {
+  color: #fcaf17;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.ul-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.rockstar-games {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+.rock {
+  width: 20%;
+}
+.new-york {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 768px) {
+  .scrol-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .scrool-text-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-carusel {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-carusel h1 {
+    font-size: 21px;
+  }
+  .scrool-btn {
+    width: 154px;
+    height: 43px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .games-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .games {
+    width: 85%;
+  }
+  .text-abaut h1 {
+    font-size: 18px;
+  }
+  .black-text {
+    flex-direction: column;
+  }
+  .comet-image {
+    height: 210px;
+    background-position: center;
+    background-size: cover;
+  }
+  .patriot-image {
+    height: 210px;
+    background-position: center;
+    background-size: cover;
+  }
+  .games-image {
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+  }
+
+  .range-image {
+    background-size: cover;
+    background-position: center;
+
+    height: 210px;
+  }
+  .gta-image {
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+  }
+  .call-image {
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+  }
+
+  .black-text {
+    width: 130px;
+  }
+  .new {
+    width: 200px;
+  }
+  .v-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .gta-trilogy {
+    width: 39%;
+    height: 146px;
+    /* margin-top: 20px; */
+    margin: 10px;
+  }
+  .read-dead {
+    width: 39%;
+    height: 146px;
+    /* margin-top: 20px; */
+    margin: 10px;
+  }
+  .read-dead-online {
+    width: 39%;
+    height: 146px;
+    /* margin-top: 20px; */
+    margin: 10px;
+  }
+  .gta-v {
+    width: 39%;
+    height: 146px;
+    /* margin-top: 20px; */
+    margin: 10px;
+  }
+  .gta-text h1 {
+    font-size: 20px;
+  }
+
+  .corparate {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    width: 100%;
+  }
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+  }
+
+  .ul-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sosial {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  .rockstar-games {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .rock {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .mcm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .new-york {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .scrol-text-area {
+    padding: 0 20px;
+  }
+  .footer {
+    line-height: 100px;
+  }
+}
