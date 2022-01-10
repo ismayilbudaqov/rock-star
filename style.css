@@ -70,7 +70,7 @@
 }
 
 .game-area {
-  background-color: #1b1b1b;
+  background-color:#0b0b0b;
   width: 100%;
 }
 .games {
@@ -188,7 +188,7 @@ background-repeat: no-repeat;
 }
 .games-card {
   width: 100%;
-  background-color: #1b1b1b;
+  background-color:#0b0b0b;
 }
 
 .gta-text {
@@ -246,24 +246,25 @@ background-repeat: no-repeat;
 }
 .v-btn:hover{
   background-color: #fcaf17;
-  transition: 0.5s;
+  transition: all .2s ease;
 }
 .gta-v-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  padding: 50px;
 }
 .footer {
   width: 100%;
   background-color: black;
-  height: 350px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .footer-abaut {
   width: 100%;
+  margin-top: 80px;
 }
 .footer-ul {
   width: 25%;
@@ -281,6 +282,10 @@ background-repeat: no-repeat;
   color: white;
   margin-left: 10px;
   font-size: 10px;
+}
+.footer-ul li{
+  display: flex;
+  align-items: center;
 }
 .footer-ul a:hover{
   color: #fcaf17;
@@ -452,12 +457,16 @@ transition: 0.3s;
     font-size: 12px;
     width: 100%;
   }
-  .footer-ul {
+  .footer-ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     font-size: 15px;
+  }
+  .footer-ul li{
+    display: flex;
+    align-items: center;
   }
 
   .ul-flex {
@@ -493,6 +502,7 @@ transition: 0.3s;
     width: 100%;
     justify-content: center;
   }
+
 }
 @media only screen and (min-width: 992px) {
   .scrol-text-area {
